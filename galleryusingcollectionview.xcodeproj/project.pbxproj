@@ -15,6 +15,7 @@
 		42450472273F78CE000FEAA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42450470273F78CE000FEAA0 /* LaunchScreen.storyboard */; };
 		42450480273FC366000FEAA0 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4245047F273FC366000FEAA0 /* GalleryCollectionViewCell.swift */; };
 		42450482273FC509000FEAA0 /* testView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42450481273FC509000FEAA0 /* testView.xib */; };
+		42FFD81E27466F3B00C74988 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FFD81D27466F3B00C74988 /* ZoomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		42450473273F78CE000FEAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4245047F273FC366000FEAA0 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
 		42450481273FC509000FEAA0 /* testView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = testView.xib; sourceTree = "<group>"; };
+		42FFD81D27466F3B00C74988 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				42450465273F78CD000FEAA0 /* AppDelegate.swift */,
 				42450467273F78CD000FEAA0 /* SceneDelegate.swift */,
 				42450469273F78CD000FEAA0 /* ViewController.swift */,
+				42FFD81D27466F3B00C74988 /* ZoomViewController.swift */,
 				4245046B273F78CD000FEAA0 /* Main.storyboard */,
 				4245046E273F78CE000FEAA0 /* Assets.xcassets */,
 				4245047F273FC366000FEAA0 /* GalleryCollectionViewCell.swift */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4245046A273F78CD000FEAA0 /* ViewController.swift in Sources */,
+				42FFD81E27466F3B00C74988 /* ZoomViewController.swift in Sources */,
 				42450480273FC366000FEAA0 /* GalleryCollectionViewCell.swift in Sources */,
 				42450466273F78CD000FEAA0 /* AppDelegate.swift in Sources */,
 				42450468273F78CD000FEAA0 /* SceneDelegate.swift in Sources */,

@@ -10,8 +10,6 @@ import UIKit
 class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
 
     var ImageArray:[UIImage] = []
-   
-    
     
     @IBOutlet weak var collectionview: UICollectionView!
     
@@ -96,6 +94,13 @@ extension ViewController :UICollectionViewDelegate,UICollectionViewDataSource {
         
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle:nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "ZoomViewController") as! ZoomViewController
+        vc.img = ImageArray[indexPath.row]
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
     
 }
 extension ViewController: UICollectionViewDelegateFlowLayout {
